@@ -1,0 +1,24 @@
+.h1 {
+  // font-size: clamp(4rem, 7dvw + 0.1rem, 8rem);
+  font-size: clamp(1.6rem, 3dvw + 0.1rem, 3.2rem);
+}
+
+.h2 {
+  font-size: clamp(4.8rem, 8dvw + 0.1rem, 9.6rem);
+}
+
+.h3 {
+  font-size: clamp(3.2rem, 6dvw + 0.1rem, 6.4rem);
+}
+
+.h4 {
+  font-size: clamp(2.6rem, 5dvw + 0.1rem, 5.2rem);
+}
+
+.h5 {
+  font-size: clamp(2rem, 4dvw + 0.1rem, 4rem);
+}
+
+.h6 {
+  font-size: clamp(1.6rem, 3dvw + 0.1rem, 3.2rem);
+}

@@ -1,0 +1,36 @@
+.section {
+  display: grid;
+  align-items: center;
+
+
+  h1 {
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    display: inline-block;
+    background: linear-gradient(
+      to right,
+      #9845e8 0%,
+      #33d2ff 50%,
+      rgb(221, 87, 137) 100%
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  p {
+    margin-top: 2rem;
+    line-height: 1.5;
+  }
+
+  .image_section {
+    padding: 2.4rem;
+  }
+}
+
+@media (min-width: "656px") {
+  .section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
