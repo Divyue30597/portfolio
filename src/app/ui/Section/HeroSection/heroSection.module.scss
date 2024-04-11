@@ -2,7 +2,6 @@
   display: grid;
   align-items: center;
 
-
   h1 {
     margin-bottom: 2rem;
   }
@@ -23,14 +22,16 @@
     margin-top: 2rem;
     line-height: 1.5;
   }
-
-  .image_section {
-    padding: 2.4rem;
-  }
 }
 
 @media (min-width: "656px") {
   .section {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .image_section {
+    color-scheme: light !important;
   }
 }

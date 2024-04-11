@@ -8,14 +8,33 @@
   font-size: 62.5%;
 
   /* CSS VARIABLES */
-
   --primary-color: ;
   --secondary-color: ;
   --tertiary-color: ;
+
+  color: var(--font-color);
+  --border-color: #263238;
+
+  background-color: var(--background-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --font-color: #fefefe;
+    --background-color: #201f1f;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --font-color: #111111;
+    --background-color: #fefefe;
+  }
 }
 
 body {
-  font-size: 2rem;
+  font-size: clamp(1.6rem, 1dvw + 0.1rem, 1.8rem);
+  overflow: hidden;
   /* background-color: #000; */
 }
 
